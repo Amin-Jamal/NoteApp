@@ -20,9 +20,8 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(findNavController(R.id.fragmentContainerView))
 
     }
-    //Lorem Ipsum
-    // kljadnvkjlfdnlkvnkjasnnvkadsnklnvkjlnlkafsndvkn
-    //cklnsdkl;vnclksn;vnksnd;kvnknsvn;
+    // This is third branch
+
     override fun onSupportNavigateUp(): Boolean {
 
         val navController = findNavController(R.id.fragmentContainerView)
