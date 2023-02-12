@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
     //Lorem Ipsum
     // kljadnvkjlfdnlkvnkjasnnvkadsnklnvkjlnlkafsndvkn
     //cklnsdkl;vnclksn;vnksnd;kvnknsvn;
+    // this is master
     override fun onSupportNavigateUp(): Boolean {
 
         val navController = findNavController(R.id.fragmentContainerView)
