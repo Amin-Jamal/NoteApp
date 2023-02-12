@@ -21,8 +21,11 @@ class MainActivity : AppCompatActivity() {
 
     }
     //Lorem Ipsum
-    // kljadnvkjlfdnlkvnkjasnnvkadsnklnvkjlnlkafsndvkn
-    //cklnsdkl;vnclksn;vnksnd;kvnknsvn;
+    // NEW COMMIT
+    // NEW COMMIT
+    // NEW COMMIT
+    // NEW COMMIT
+    kjldjsfvklnkadnvkndkan
     override fun onSupportNavigateUp(): Boolean {
 
         val navController = findNavController(R.id.fragmentContainerView)
