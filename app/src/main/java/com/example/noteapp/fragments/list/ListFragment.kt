@@ -25,16 +25,16 @@ class ListFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         var layout = inflater.inflate(R.layout.fragment_list, container, false)
 
-        //RecyclerView
+
         var recyclerView = layout.recyclerView
         var adapter = Adapter()
         recyclerView.adapter = adapter
         recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
 
-        //mNoteViewModel
+
         mNoteViewModel = ViewModelProvider(this).get(NoteViewModel::class.java)
         mNoteViewModel.readAllData.observe(viewLifecycleOwner, Observer {  user ->
             adapter.setData(user)
@@ -49,7 +49,7 @@ class ListFragment : Fragment() {
 
         return layout
     }
-        // Creating menu options
+
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         inflater.inflate(R.menu.delete_menu, menu)
     }

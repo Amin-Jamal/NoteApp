@@ -24,7 +24,7 @@ class UpdateFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         val layout = inflater.inflate(R.layout.fragment_update, container, false)
 
         mNoteViewmodel = ViewModelProvider(this).get(NoteViewModel::class.java)

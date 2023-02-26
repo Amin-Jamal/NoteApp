@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(findNavController(R.id.fragmentContainerView))
 
     }
-    // This is third branch
-    // This comment is for practising merge
 
     override fun onSupportNavigateUp(): Boolean {
 
